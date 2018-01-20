@@ -1,0 +1,37 @@
+{
+  "title":"Learning OpenCV (Python)",
+  "author":"Qingchuan-Ma",
+  "language":"zh-hans",
+  "links": {
+    "sidebar": {
+      "GitHub": "https://github.com/Qingchuan-Ma/Learning-OpenCV-Python"
+    }
+  },
+  "plugins": [
+    "-livereload",
+    "image-captions",
+    "github",
+    "page-treeview",
+    "editlink"
+  ],
+  "pluginsConfig": {
+    "image-captions": {
+      "attributes": {
+        "width": "600"
+      },
+      "caption": "图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+    },
+    "github": {
+      "url": "https://github.com/Qingchuan-Ma/Learning-OpenCV-Python"
+    },
+    "editlink": {
+      "base": "https://github.com/Qingchuan-Ma/Learning-OpenCV-Python",
+      "label": "编辑本页"
+    },
+    "page-treeview": {
+      "copyright": "Copyright &#169; qingchuan-ma",
+      "minHeaderCount": "2",
+      "minHeaderDeep": "2"
+    }
+  }
+}
