@@ -1,10 +1,11 @@
 {
-  "title":"Learning OpenCV (Python)",
+  "title":"学习 OpenCV (Python)",
   "author":"Qingchuan-Ma",
   "language":"zh-hans",
   "links": {
-    "sidebar": {
-      "GitHub": "https://github.com/Qingchuan-Ma/Learning-OpenCV-Python"
+    "sidebar":{
+      "GitHub":"https://github.com/Qingchuan-Ma/Learning-OpenCV-Python",
+      "学习 OpenCV (Python)":"https://www.gitbook.com/book/qingchuan-ma/learning-opencv-python"
     }
   },
   "plugins": [
