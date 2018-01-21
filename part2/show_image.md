@@ -1,7 +1,7 @@
 # 显示图像
 
 
-例 2-1：用于从磁盘加载并在屏幕上显示衣服图像的简单 OpenCV 程序
+例 2-1：用于从磁盘加载并在屏幕上显示一幅图像的简单 OpenCV 程序
 ```python
 import cv2
 import numpy as np
