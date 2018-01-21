@@ -12,7 +12,9 @@
     "image-captions",
     "github",
     "page-treeview",
-    "editlink"
+    "editlink",
+    "prism",
+    "-highlight"
   ],
   "pluginsConfig": {
     "image-captions": {
@@ -32,6 +34,11 @@
       "copyright": "Copyright &#169; qingchuan-ma",
       "minHeaderCount": "2",
       "minHeaderDeep": "2"
-    }
+    },
+    "prism": {
+    "css": [
+      "syntax-highlighting/assets/css/prism/prism-base16-google.light.css"
+    ]
+  }
   }
 }
