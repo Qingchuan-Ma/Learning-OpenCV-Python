@@ -37,11 +37,7 @@
     },
     "prism": {
     "css": [
-<<<<<<< HEAD
       "prismjs/themes/prism-coy.css"
-=======
-      "syntax-highlighting/assets/css/prism/prism-base16-pop.light.css"
->>>>>>> 727382cdbd91965d3a663e439ae50072427a0330
     ]
   }
   }
