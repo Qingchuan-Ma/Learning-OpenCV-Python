@@ -37,7 +37,7 @@
     },
     "prism": {
     "css": [
-      "syntax-highlighting/assets/css/prism/prism-base16-google.light.css"
+      "syntax-highlighting/assets/css/prism/prism-base16-pop.light.css"
     ]
   }
   }
