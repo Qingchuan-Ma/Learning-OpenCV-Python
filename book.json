@@ -14,7 +14,8 @@
     "page-treeview",
     "editlink",
     "prism",
-    "-highlight"
+    "-highlight",
+    "splitter"
   ],
   "pluginsConfig": {
     "image-captions": {
