@@ -15,3 +15,4 @@
     * [从摄像机读入数据](part2/data_from_camera.md)
     * [写入 AVI 视频文件](part2/write_into_video.md)
     * [小结](part2/SUMMARY.md)
+    * [练习](part2/EXERCISE.md)
