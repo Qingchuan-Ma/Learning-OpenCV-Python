@@ -40,10 +40,10 @@
     "prism": {
     "css": [
       "prismjs/themes/prism-coy.css"
-    ],
+    ]
+    },
     "sitemap-general": {
       "prefix": "http://gitbook.qingchuan-ma.com"
     }
-  }
   }
 }
