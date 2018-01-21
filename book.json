@@ -15,7 +15,8 @@
     "editlink",
     "prism",
     "-highlight",
-    "splitter"
+    "splitter",
+    "sitemap-general"
   ],
   "pluginsConfig": {
     "image-captions": {
@@ -39,7 +40,10 @@
     "prism": {
     "css": [
       "prismjs/themes/prism-coy.css"
-    ]
+    ],
+    "sitemap-general": {
+      "prefix": "http://gitbook.qingchuanma.com"
+    }
   }
   }
 }
