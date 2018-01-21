@@ -8,3 +8,4 @@
     * [GitBook is nice](part1/gitbook.md)
 
 * [第二章  OpenCV 入门](part2/README.md)
+    * [显示图像](part2/show_image.md)
