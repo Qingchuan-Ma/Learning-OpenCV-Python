@@ -17,8 +17,7 @@
     "-highlight",
     "splitter",
     "sitemap-general",
-    "expandable-chapters-small",
-    "anchor-navigation-ex"
+    "expandable-chapters-small"
   ],
   "pluginsConfig": {
     "image-captions": {
@@ -46,12 +45,6 @@
     },
     "sitemap-general": {
       "prefix": "https://qingchuan-ma.github.io/learning-opencv-python"
-    },
-    "anchor-navigation-ex": {
-      "isRewritePageTitle": false,
-      "tocLevel1Icon": "fa fa-hand-o-right",
-      "tocLevel2Icon": "fa fa-hand-o-right",
-      "tocLevel3Icon": "fa fa-hand-o-right"
     }
   }
 }
