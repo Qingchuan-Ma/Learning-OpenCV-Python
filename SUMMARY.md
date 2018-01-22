@@ -19,5 +19,5 @@
 * [第三章  初探 OpenCV](part3/README.md)
     * [OpenCV 的基本数据类型](part3/basic_data_type.md)
 
-* [第四章  细说 HighGUI](part3/README.md)
+* [第四章  细说 HighGUI](part4/README.md)
     * [一个可移植的图形工具包](part4/graphic_toolkit.md)
