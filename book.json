@@ -16,7 +16,8 @@
     "prism",
     "-highlight",
     "splitter",
-    "sitemap-general"
+    "sitemap-general",
+    "expandable-chapters-small"
   ],
   "pluginsConfig": {
     "image-captions": {
