@@ -45,7 +45,7 @@
     ]
     },
     "sitemap-general": {
-      "prefix": "http://gitbook.qingchuan-ma.com"
+      "prefix": "https://qingchuan-ma.github.io/learning-opencv-python"
     },
     "anchor-navigation-ex": {
       "isRewritePageTitle": false,
