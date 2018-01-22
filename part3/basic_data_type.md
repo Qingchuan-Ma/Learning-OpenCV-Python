@@ -8,4 +8,8 @@ CvSize 类型与 CvPoint 非常相似，但它的数据成员是 int 类型的 w
 
 CvRect 类型派生于 CvPoint 和 CvSize，它包含 4 个数据成员：x, y, width, height。同样，Python 中用 tuple (x, y, width, height) 来表示。
 
+CvScalar
+
+CvBox
+
 未完待续
