@@ -48,8 +48,7 @@
       "prefix": "http://gitbook.qingchuan-ma.com"
     },
     "anchor-navigation-ex": {
-      "isRewritePageTitle": true,
-      "isShowTocTitleIcon": true,
+      "isRewritePageTitle": false,
       "tocLevel1Icon": "fa fa-hand-o-right",
       "tocLevel2Icon": "fa fa-hand-o-right",
       "tocLevel3Icon": "fa fa-hand-o-right"
