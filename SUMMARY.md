@@ -17,7 +17,8 @@
     * [写入 AVI 视频文件](part2/write_into_video.md)
     * [小结](part2/SUMMARY.md)
     * [练习](part2/EXERCISE.md)
-* [第三章  初探 OpenCV](part3/README.md)
+* [第三章  初探 OpenCV]
+    * [OpenCV 的基本数据类型](part3/README.md)
 
 * [第四章  细说 HighGUI]
-    * [创建窗口]()
+    * [一个可移植的图形工具包](part4/README.md)
