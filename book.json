@@ -16,7 +16,6 @@
     "prism",
     "-highlight",
     "splitter",
-    "sitemap-general",
     "expandable-chapters-small"
   ],
   "pluginsConfig": {
@@ -42,9 +41,6 @@
     "css": [
       "prismjs/themes/prism-coy.css"
     ]
-    },
-    "sitemap-general": {
-      "prefix": "https://qingchuan-ma.github.io/learning-opencv-python"
     }
   }
 }
