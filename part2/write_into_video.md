@@ -1,4 +1,4 @@
-# 写入 AVI 视频文件
+## 写入 AVI 视频文件
 
 ```python
 import cv2
