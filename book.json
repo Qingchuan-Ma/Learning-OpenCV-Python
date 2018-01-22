@@ -17,7 +17,8 @@
     "-highlight",
     "splitter",
     "sitemap-general",
-    "expandable-chapters-small"
+    "expandable-chapters-small",
+    "anchor-navigation-ex"
   ],
   "pluginsConfig": {
     "image-captions": {
@@ -45,6 +46,13 @@
     },
     "sitemap-general": {
       "prefix": "http://gitbook.qingchuan-ma.com"
+    },
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": true,
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
     }
   }
 }
