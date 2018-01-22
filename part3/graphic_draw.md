@@ -15,7 +15,10 @@ cv2.line(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) -> line
 
 下一个参数是 CvScalar 类型的颜色变量。应该注意的 Color 的 4 个分量按照 BGRA 的顺序排列。
 
-接下来的三个属性是可选的。thickness 是线的粗细（像素），类型为 int。lineType 是线的种类，分为 LINE_8(default), LINE_4, LINE_AA(antialiased line)。前者是 8 连通线条，较为平滑且不会走样，第二者是 4 连通线条，斜线会产生重叠以至于看上去过于粗重，不过画起来速度要快得多，相比前两者使用的 Bresenham 算法，后者是使用高斯滤波绘制反锯齿线。shift 是在点坐标上的小数部分。
+接下来的三个属性是可选的。
+1. thickness 是线的粗细（像素），类型为 int。
+2. lineType 是线的种类，分为 LINE_8(default), LINE_4, LINE_AA(antialiased line)。前者是 8 连通线条，较为平滑且不会走样，第二者是 4 连通线条，斜线会产生重叠以至于看上去过于粗重，不过画起来速度要快得多，相比前两者使用的 Bresenham 算法，后者是使用高斯滤波绘制反锯齿线。
+3. shift 是在点坐标上的小数部分。
 
 cv2.rectangle() 和 cv2.line() 几乎同样便捷。cv2.rectangle() 用于画矩形。他和 cv2.line() 接受的参数一致，因此产生的矩形总是平行于 X 和 Y 轴。利用 cv2.rectangle()，我们只需要给出两个对顶点，OpenCV 便可画出一个矩形。下面是其定义:
 ```python
