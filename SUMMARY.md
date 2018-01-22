@@ -7,8 +7,7 @@
     * [Writing is nice](part1/writing.md)
     * [GitBook is nice](part1/gitbook.md)
 
-* [第二章  OpenCV 入门]()
-    * [开始准备](part2/README.md)
+* [第二章  OpenCV 入门](part2/README.md)
     * [显示图像](part2/show_image.md)
     * [播放 AVI 视频](part2/play_avi_video.md)
     * [视频播放控制](part2/video_playback_control.md)
