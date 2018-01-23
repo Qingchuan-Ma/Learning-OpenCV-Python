@@ -24,3 +24,5 @@
     * [一个可移植的图形工具包](part4/graphic_toolkit.md)
     * [创建窗口](part4/window_create.md)
     * [载入图像](part4/image_load.md)
+    * [显示图像](part4/image_show.md)
+    * [视频的处理](part4/video_process.md)
