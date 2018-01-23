@@ -1,6 +1,6 @@
 ## 什么是 OpenCV
 
-OpenCV 是一个开源（参见 http://opensource.org ）的计算机视觉库，项目主页为 https://sourceforge.net/projects/opencvlibrary。OpenCV 采用 C/C++ 语言编写，可以运行在 Linux/Windows/Mac 等操作系统上。OpenCV 还提供了 Python, Ruby, MATLAB 以及其他语言的接口。
+OpenCV 是一个开源（参见 http://opensource.org\）的计算机视觉库，项目主页为 https://sourceforge.net/projects/opencvlibrary。OpenCV 采用 C/C++ 语言编写，可以运行在 Linux/Windows/Mac 等操作系统上。OpenCV 还提供了 Python, Ruby, MATLAB 以及其他语言的接口。
 
 OpenCV 的设计目标是执行速度尽量快，主要关注实时应用。它采用优化的 C/C++ 代码编写，能够充分利用多核处理器的优势。
 
