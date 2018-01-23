@@ -1,6 +1,7 @@
 ## OpenCV 的结构和内容
 
 以下是 OpenCV 的所有模块
+
 ►Core functionality
 
 ►Image processing
@@ -108,6 +109,7 @@
 ►Core_utils_vsx
 
 其中我们需要认真掌握的有以下几个模块：
+
 ►Core functionality
 
 ►Image processing
