@@ -22,3 +22,5 @@
 
 * [第四章  细说 HighGUI](part4/README.md)
     * [一个可移植的图形工具包](part4/graphic_toolkit.md)
+    * [创建窗口](part4/window_create.md)
+    * [载入图像](part4/image_load.md)

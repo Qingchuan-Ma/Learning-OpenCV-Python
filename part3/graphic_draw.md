@@ -6,7 +6,6 @@
 
 cv2.line() 是绘图函数中最简单的，只需用 Bresenham 算法[Bresenham65]画一条线：
 ```python
-import cv2
 cv2.line(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) -> line
 ```
 该函数的第一个参数是 img，是使用 cv2.imread() 读取图片获得的返回值或者是利用 NumPy 定义的 ndarray 数组。
