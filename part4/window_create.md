@@ -5,14 +5,16 @@
 cv2.namedWindow(winname[, flags]) -> None
 ```
 需要留意的是参数 flags，到目前为止，唯一有效的设置是 0 或者 cv2.WINDOW_AUTOSIZE。如果使用 cv2.WINDOW_AUTOSIZE，HighGUI 会根据图像的大小调整窗口大小。这样，窗口大小会随着图像的载入而根据图像大小调整，用户没办法手动调整窗口大小。当然，如果不想窗口大小自动调整，也可以将参数值设置为 0，这样的话，用户就可以随意调整窗口的大小了。不仅如此，该参数值还有其他可选:
-1. CV_WINDOW_NORMAL or CV_WINDOW_AUTOSIZE
-2. CV_WINDOW_FREERATIO or CV_WINDOW_KEEPRATIO
-3. CV_GUI_NORMAL or CV_GUI_EXPANDED
-具体区别请查看第一章概述中的 api 文档。默认该参数 flags == CV_WINDOW_AUTOSIZE | CV_WINDOW_KEEPRATIO | CV_GUI_EXPANDED
+1. cv2.WINDOW_NORMAL 或 cv2.WINDOW_AUTOSIZE
+2. cv2.WINDOW_FREERATIO 或 cv2.WINDOW_KEEPRATIO
+3. cv2.WINDOW_GUI_NORMAL 或 cv2.WINDOW_GUI_EXPANDED
+4. cv2.WINDOW_FULLSCREEN 和 cv2.WINDOW_OPENGL
+
+具体区别请查看第一章概述中的 api 文档。默认该参数 flags == cv2.WINDOW_AUTOSIZE | cv2.WINDOW_KEEPRATIO | cv2.WINDOW_GUI_EXPANDED
 
 当窗口被创建以后，我们通常是想加入一些东西到里面。不要着急，在做那些事情以前，我们先看看当不需要这些窗口时，如何释放他们。为了释放窗口，我们需要使用 cv2.destroyWindow()，这个函数接受一个字符串参数，这个字符串是窗口创建时所指定的名字。
 
-在 OpenCV 中，窗口根据名称来引用（操作系统独立的）而不是一些“不友好”的句柄。句柄与窗口名称的转换都由 HighGUI 在后台处理，我们不用为这些问题操心。不仅如此，在 OpenCV3 中，在 OpenCV1 中有的 cvGetWindowHandle, cvGetWindowName 等函数已被删除。
+在 OpenCV 中，窗口根据名称来引用（操作系统独立的）而不是一些“不友好”的句柄。句柄与窗口名称的转换都由 HighGUI 在后台处理，我们不用为这些问题操心。不仅如此，在 OpenCV3 中，在 OpenCV1 中有的 cvGetWindowHandle(), cvGetWindowName() 等函数已被删除。
 
 不仅如此， HighGUI 提供了 cv2.resizeWindow() 用来调整窗口的大小：
 ```python
