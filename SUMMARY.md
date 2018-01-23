@@ -6,7 +6,7 @@
 * [第一章  概述](part1/README.md)
     * [什么是 OpenCV](part1/what's_opencv.md)
     * [OpenCV 的应用领域](part1/app_areas.md)
-    * [GitBook is nice](part1/gitbook.md)
+    * [什么是计算机视觉](part1/what's_cv.md)
 
 * [第二章  OpenCV 入门](part2/README.md)
     * [显示图像](part2/show_image.md)
