@@ -11,6 +11,7 @@
     * [下载和安装 OpenCV](part1/download&install.md)
     * [OpenCV3 的结构和内容](part1/structure&content.md)
     * [更多 OpenCV 文档](part1/more_docs.md)
+    * [练习]()
 
 * [第二章  OpenCV 入门](part2/README.md)
     * [显示图像](part2/show_image.md)
@@ -21,6 +22,7 @@
     * [写入 AVI 视频文件](part2/write_into_video.md)
     * [小结](part2/SUMMARY.md)
     * [练习](part2/EXERCISE.md)
+
 * [第三章  初探 OpenCV](part3/README.md)
     * [OpenCV 的基本数据类型](part3/basic_data_type.md)
     * [绘图](part3/graphic_draw.md)
