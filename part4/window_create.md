@@ -16,7 +16,7 @@ cv2.namedWindow(winname[, flags]) -> None
 
 在 OpenCV 中，窗口根据名称来引用（操作系统独立的）而不是一些“不友好”的句柄。句柄与窗口名称的转换都由 HighGUI 在后台处理，我们不用为这些问题操心。不仅如此，在 OpenCV3 中，在 OpenCV1 中有的 cvGetWindowHandle(), cvGetWindowName() 等函数已被删除。
 
-不仅如此， HighGUI 提供了 cv2.resizeWindow() 用来调整窗口的大小：
+此外， HighGUI 提供了 cv2.resizeWindow() 用来调整窗口的大小：
 ```python
 resizeWindow(winname, width, height) -> None
 ```
