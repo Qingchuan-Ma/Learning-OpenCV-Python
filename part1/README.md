@@ -2,8 +2,6 @@
 
 
 **导读**
-<hr>
-
 
   本章中，你将学到：
 * [什么是 OpenCV](what's_opencv.md)

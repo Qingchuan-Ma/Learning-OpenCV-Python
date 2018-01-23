@@ -5,10 +5,10 @@
 cv2.namedWindow(winname[, flags]) -> None
 ```
 需要留意的是参数 flags，到目前为止，唯一有效的设置是 0 或者 cv2.WINDOW_AUTOSIZE。如果使用 cv2.WINDOW_AUTOSIZE，HighGUI 会根据图像的大小调整窗口大小。这样，窗口大小会随着图像的载入而根据图像大小调整，用户没办法手动调整窗口大小。当然，如果不想窗口大小自动调整，也可以将参数值设置为 0，这样的话，用户就可以随意调整窗口的大小了。不仅如此，该参数值还有其他可选:
-1. cv2.WINDOW_NORMAL 或 cv2.WINDOW_AUTOSIZE
-2. cv2.WINDOW_FREERATIO 或 cv2.WINDOW_KEEPRATIO
-3. cv2.WINDOW_GUI_NORMAL 或 cv2.WINDOW_GUI_EXPANDED
-4. cv2.WINDOW_FULLSCREEN 和 cv2.WINDOW_OPENGL
+* cv2.WINDOW_NORMAL 或 cv2.WINDOW_AUTOSIZE
+* cv2.WINDOW_FREERATIO 或 cv2.WINDOW_KEEPRATIO
+* cv2.WINDOW_GUI_NORMAL 或 cv2.WINDOW_GUI_EXPANDED
+* cv2.WINDOW_FULLSCREEN 和 cv2.WINDOW_OPENGL
 
 具体区别请查看第一章概述中的 api 文档。默认该参数 flags == cv2.WINDOW_AUTOSIZE | cv2.WINDOW_KEEPRATIO | cv2.WINDOW_GUI_EXPANDED
 
