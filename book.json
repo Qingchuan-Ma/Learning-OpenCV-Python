@@ -16,6 +16,7 @@
     "prism",
     "-highlight",
     "splitter",
+    "prism-themes",
     "expandable-chapters-small"
   ],
   "pluginsConfig": {
