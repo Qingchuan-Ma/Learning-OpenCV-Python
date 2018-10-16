@@ -39,7 +39,7 @@
     },
     "prism": {
     "css": [
-      "prismjs/themes/prism-ghcolors.css"
+      "prism-themes/themes/prism-ghcolors.css"
     ]
     }
   }
